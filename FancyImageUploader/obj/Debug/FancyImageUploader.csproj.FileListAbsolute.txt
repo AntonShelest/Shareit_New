@@ -19,3 +19,10 @@ F:\C\modal_demo\FancyImageUploader\obj\Debug\FancyImageUploader.pdb
 F:\C\modal_demo\FancyImageUploader\obj\Debug\FancyImageUploader.csprojResolveAssemblyReference.cache
 F:\C\modal_demo\FancyImageUploader\bin\EntityFramework.dll
 F:\C\modal_demo\FancyImageUploader\bin\EntityFramework.xml
+C:\Users\Антоха\Documents\GitHub\ShareIt\FancyImageUploader\bin\FancyImageUploader.dll
+C:\Users\Антоха\Documents\GitHub\ShareIt\FancyImageUploader\bin\FancyImageUploader.pdb
+C:\Users\Антоха\Documents\GitHub\ShareIt\FancyImageUploader\bin\EntityFramework.dll
+C:\Users\Антоха\Documents\GitHub\ShareIt\FancyImageUploader\bin\EntityFramework.xml
+C:\Users\Антоха\Documents\GitHub\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.csprojResolveAssemblyReference.cache
+C:\Users\Антоха\Documents\GitHub\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.dll
+C:\Users\Антоха\Documents\GitHub\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.pdb

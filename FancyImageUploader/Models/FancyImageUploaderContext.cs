@@ -13,7 +13,7 @@ namespace FancyImageUploader.Models
         // 
         // System.Data.Entity.Database.SetInitializer(new System.Data.Entity.DropCreateDatabaseIfModelChanges<FancyImageUploader.Models.FancyImageUploaderContext>());
 
-        public FancyImageUploaderContext() : base("name=FancyImageUploaderContext")
+        public FancyImageUploaderContext() : base("name=ShareitDatabase")
         {
         }
 
