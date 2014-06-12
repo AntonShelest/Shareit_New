@@ -74,6 +74,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\FileController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
@@ -86,6 +87,10 @@
     <Compile Include="Migrations\201406121436315_test_migration.cs" />
     <Compile Include="Migrations\201406121436315_test_migration.Designer.cs">
       <DependentUpon>201406121436315_test_migration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201406121454335_file_model_added.cs" />
+    <Compile Include="Migrations\201406121454335_file_model_added.Designer.cs">
+      <DependentUpon>201406121454335_file_model_added.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\FileModel.cs" />
@@ -185,6 +190,24 @@
     <EmbeddedResource Include="Migrations\201406121436315_test_migration.resx">
       <DependentUpon>201406121436315_test_migration.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201406121454335_file_model_added.resx">
+      <DependentUpon>201406121454335_file_model_added.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\File\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\File\Details.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\File\Create.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\File\Edit.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\File\Delete.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

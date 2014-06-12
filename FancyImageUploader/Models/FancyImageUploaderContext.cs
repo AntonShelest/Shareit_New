@@ -18,5 +18,7 @@ namespace FancyImageUploader.Models
         }
 
         public DbSet<User> Users { get; set; }
+
+        public DbSet<FileModel> FileModels { get; set; }
     }
 }

@@ -43,3 +43,4 @@ F:\C\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.pdb
 F:\C\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.Migrations.InitialCreate.resources
 F:\C\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.csproj.GenerateResource.Cache
 F:\C\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.Migrations.test_migration.resources
+F:\C\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.Migrations.file_model_added.resources
