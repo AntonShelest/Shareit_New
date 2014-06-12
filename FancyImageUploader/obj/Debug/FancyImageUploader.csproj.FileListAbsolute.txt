@@ -40,3 +40,6 @@ F:\C\ShareIt\FancyImageUploader\bin\EntityFramework.xml
 F:\C\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.csprojResolveAssemblyReference.cache
 F:\C\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.dll
 F:\C\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.pdb
+F:\C\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.Migrations.InitialCreate.resources
+F:\C\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.csproj.GenerateResource.Cache
+F:\C\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.Migrations.test_migration.resources

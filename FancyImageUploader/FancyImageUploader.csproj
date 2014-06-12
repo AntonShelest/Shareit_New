@@ -79,6 +79,15 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201406111055352_InitialCreate.cs" />
+    <Compile Include="Migrations\201406111055352_InitialCreate.Designer.cs">
+      <DependentUpon>201406111055352_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201406121436315_test_migration.cs" />
+    <Compile Include="Migrations\201406121436315_test_migration.Designer.cs">
+      <DependentUpon>201406121436315_test_migration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\FileModel.cs" />
     <Compile Include="Models\FolderModel.cs" />
     <Compile Include="Models\RoleModel.cs" />
@@ -168,6 +177,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\User\Delete.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201406111055352_InitialCreate.resx">
+      <DependentUpon>201406111055352_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201406121436315_test_migration.resx">
+      <DependentUpon>201406121436315_test_migration.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

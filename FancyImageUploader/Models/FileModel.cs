@@ -15,8 +15,7 @@ namespace FancyImageUploader.Models
         [Key]
         [DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]
         public int FileId { get; set; }
-        //[Required]
-        //[Display(Name = "User name")]
+
         public string FileName { get; set; }
         public byte[] FileData { get; set; }
         public int FolderId { get; set; }

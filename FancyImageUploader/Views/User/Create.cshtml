@@ -37,7 +37,14 @@
             @Html.EditorFor(model => model.RoleID)
             @Html.ValidationMessageFor(model => model.RoleID)
         </div>
-
+        
+        <div class="editor-label">
+            @Html.LabelFor(model => model.IsBlocked)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.IsBlocked)
+            @Html.ValidationMessageFor(model => model.IsBlocked)
+        </div>
         <p>
             <input type="submit" value="Create" />
         </p>
