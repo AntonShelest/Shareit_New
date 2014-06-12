@@ -26,3 +26,10 @@ C:\Users\Антоха\Documents\GitHub\ShareIt\FancyImageUploader\bin\EntityFram
 C:\Users\Антоха\Documents\GitHub\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.csprojResolveAssemblyReference.cache
 C:\Users\Антоха\Documents\GitHub\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.dll
 C:\Users\Антоха\Documents\GitHub\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.pdb
+D:\Нужное\Учеба\Курс 5 II\СТП\Проект\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.csprojResolveAssemblyReference.cache
+D:\Нужное\Учеба\Курс 5 II\СТП\Проект\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.dll
+D:\Нужное\Учеба\Курс 5 II\СТП\Проект\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.pdb
+D:\Нужное\Учеба\Курс 5 II\СТП\Проект\ShareIt\FancyImageUploader\bin\FancyImageUploader.dll
+D:\Нужное\Учеба\Курс 5 II\СТП\Проект\ShareIt\FancyImageUploader\bin\FancyImageUploader.pdb
+D:\Нужное\Учеба\Курс 5 II\СТП\Проект\ShareIt\FancyImageUploader\bin\EntityFramework.dll
+D:\Нужное\Учеба\Курс 5 II\СТП\Проект\ShareIt\FancyImageUploader\bin\EntityFramework.xml
