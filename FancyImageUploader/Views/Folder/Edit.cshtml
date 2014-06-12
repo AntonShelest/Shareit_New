@@ -14,22 +14,22 @@
     <fieldset>
         <legend>FolderModel</legend>
 
-        @Html.HiddenFor(model => model.Id)
+        @Html.HiddenFor(model => model.FolderId)
 
         <div class="editor-label">
-            @Html.LabelFor(model => model.Name)
+            @Html.LabelFor(model => model.FolderName)
         </div>
         <div class="editor-field">
-            @Html.EditorFor(model => model.Name)
-            @Html.ValidationMessageFor(model => model.Name)
+            @Html.EditorFor(model => model.FolderName)
+            @Html.ValidationMessageFor(model => model.FolderName)
         </div>
 
         <div class="editor-label">
-            @Html.LabelFor(model => model.UserId)
+            @Html.LabelFor(model => model.FolderUserId)
         </div>
         <div class="editor-field">
-            @Html.EditorFor(model => model.UserId)
-            @Html.ValidationMessageFor(model => model.UserId)
+            @Html.EditorFor(model => model.FolderUserId)
+            @Html.ValidationMessageFor(model => model.FolderUserId)
         </div>
 
         <div class="editor-label">
@@ -41,19 +41,19 @@
         </div>
 
         <div class="editor-label">
-            @Html.LabelFor(model => model.Rights)
+            @Html.LabelFor(model => model.FolderRights)
         </div>
         <div class="editor-field">
-            @Html.EditorFor(model => model.Rights)
-            @Html.ValidationMessageFor(model => model.Rights)
+            @Html.EditorFor(model => model.FolderRights)
+            @Html.ValidationMessageFor(model => model.FolderRights)
         </div>
 
         <div class="editor-label">
-            @Html.LabelFor(model => model.Link)
+            @Html.LabelFor(model => model.FolderLink)
         </div>
         <div class="editor-field">
-            @Html.EditorFor(model => model.Link)
-            @Html.ValidationMessageFor(model => model.Link)
+            @Html.EditorFor(model => model.FolderLink)
+            @Html.ValidationMessageFor(model => model.FolderLink)
         </div>
 
         <p>

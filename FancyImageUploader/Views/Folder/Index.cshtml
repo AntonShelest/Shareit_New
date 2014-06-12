@@ -12,19 +12,19 @@
 <table>
     <tr>
         <th>
-            Name
+            FolderName
         </th>
         <th>
-            UserId
+            FolderUserId
         </th>
         <th>
             SupFolderId
         </th>
         <th>
-            Rights
+            FolderRights
         </th>
         <th>
-            Link
+            FolderLink
         </th>
         <th></th>
     </tr>
@@ -32,24 +32,24 @@
 @foreach (var item in Model) {
     <tr>
         <td>
-            @Html.DisplayFor(modelItem => item.Name)
+            @Html.DisplayFor(modelItem => item.FolderName)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.UserId)
+            @Html.DisplayFor(modelItem => item.FolderUserId)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.SupFolderId)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Rights)
+            @Html.DisplayFor(modelItem => item.FolderRights)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Link)
+            @Html.DisplayFor(modelItem => item.FolderLink)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
-            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+            @Html.ActionLink("Edit", "Edit", new { id=item.FolderId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.FolderId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.FolderId })
         </td>
     </tr>
 }

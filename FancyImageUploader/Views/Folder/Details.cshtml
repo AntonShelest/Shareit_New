@@ -9,14 +9,14 @@
 <fieldset>
     <legend>FolderModel</legend>
 
-    <div class="display-label">Name</div>
+    <div class="display-label">FolderName</div>
     <div class="display-field">
-        @Html.DisplayFor(model => model.Name)
+        @Html.DisplayFor(model => model.FolderName)
     </div>
 
-    <div class="display-label">UserId</div>
+    <div class="display-label">FolderUserId</div>
     <div class="display-field">
-        @Html.DisplayFor(model => model.UserId)
+        @Html.DisplayFor(model => model.FolderUserId)
     </div>
 
     <div class="display-label">SupFolderId</div>
@@ -24,17 +24,17 @@
         @Html.DisplayFor(model => model.SupFolderId)
     </div>
 
-    <div class="display-label">Rights</div>
+    <div class="display-label">FolderRights</div>
     <div class="display-field">
-        @Html.DisplayFor(model => model.Rights)
+        @Html.DisplayFor(model => model.FolderRights)
     </div>
 
-    <div class="display-label">Link</div>
+    <div class="display-label">FolderLink</div>
     <div class="display-field">
-        @Html.DisplayFor(model => model.Link)
+        @Html.DisplayFor(model => model.FolderLink)
     </div>
 </fieldset>
 <p>
-    @Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |
+    @Html.ActionLink("Edit", "Edit", new { id=Model.FolderId }) |
     @Html.ActionLink("Back to List", "Index")
 </p>
