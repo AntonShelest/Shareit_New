@@ -13,6 +13,7 @@ namespace FancyImageUploader.Controllers
 {
     public class HomeController : Controller
     {
+        private FancyImageUploaderContext db = new FancyImageUploaderContext();
         //
         // GET: /Home/Index
 
@@ -111,6 +112,8 @@ namespace FancyImageUploader.Controllers
                     //Demo purposes only - save image in the file system
                     var fn = Server.MapPath("~/Content/img/" + name + ".png");
                     img.Save(fn, System.Drawing.Imaging.ImageFormat.Png);
+                    //db.FileModels.Add(
+               
 
                     //Redirect to index
                     return RedirectToAction("Index");
