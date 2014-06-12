@@ -79,9 +79,14 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\FileModel.cs" />
+    <Compile Include="Models\FolderModel.cs" />
+    <Compile Include="Models\RoleModel.cs" />
+    <Compile Include="Models\TagModel.cs" />
+    <Compile Include="Models\Tag_Folder.cs" />
+    <Compile Include="Models\UserModel.cs" />
     <Compile Include="Models\FancyImageUploaderContext.cs" />
     <Compile Include="Models\ImagesModel.cs" />
-    <Compile Include="Models\UserModel.cs" />
     <Compile Include="Models\UploadImageModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Source\HtmlExtensions.cs" />
