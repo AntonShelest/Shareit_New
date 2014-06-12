@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace FancyImageUploader.Models.ERD
+namespace FancyImageUploader.Models
 {
     public class TagModel
     {

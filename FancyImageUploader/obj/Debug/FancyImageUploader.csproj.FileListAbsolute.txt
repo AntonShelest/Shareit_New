@@ -33,3 +33,10 @@ D:\Нужное\Учеба\Курс 5 II\СТП\Проект\ShareIt\FancyImageU
 D:\Нужное\Учеба\Курс 5 II\СТП\Проект\ShareIt\FancyImageUploader\bin\FancyImageUploader.pdb
 D:\Нужное\Учеба\Курс 5 II\СТП\Проект\ShareIt\FancyImageUploader\bin\EntityFramework.dll
 D:\Нужное\Учеба\Курс 5 II\СТП\Проект\ShareIt\FancyImageUploader\bin\EntityFramework.xml
+F:\C\ShareIt\FancyImageUploader\bin\FancyImageUploader.dll
+F:\C\ShareIt\FancyImageUploader\bin\FancyImageUploader.pdb
+F:\C\ShareIt\FancyImageUploader\bin\EntityFramework.dll
+F:\C\ShareIt\FancyImageUploader\bin\EntityFramework.xml
+F:\C\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.csprojResolveAssemblyReference.cache
+F:\C\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.dll
+F:\C\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.pdb

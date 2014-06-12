@@ -3,13 +3,23 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace FancyImageUploader.Models.ERD
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Web.Mvc;
+
+namespace FancyImageUploader.Models
 {
+    [Table("Files")]
     public class FileModel
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public string Location { get; set; }
+        [Key]
+        [DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]
+        public int FileId { get; set; }
+        //[Required]
+        //[Display(Name = "User name")]
+        public string FileName { get; set; }
+        public byte[] FileData { get; set; }
         public int FolderId { get; set; }
     }
+
 }
