@@ -14,4 +14,13 @@ namespace FancyImageUploader.Models
 
         public List<string> Images { get; set; }
     }
+
+    public class AlbumsModel
+    {
+        public AlbumsModel()
+        {
+            Albums = new List<FileModel>();
+        }
+        public List<FileModel> Albums { get; set; }
+    }
 }

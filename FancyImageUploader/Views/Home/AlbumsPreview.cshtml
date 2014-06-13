@@ -1,0 +1,44 @@
+﻿@model FancyImageUploader.Models.UserDataModel
+
+@{
+    ViewBag.Title = "AlbumsPreview";
+}
+
+<h2>AlbumsPreview</h2>
+<p>
+    This page contains the list of all uploaded images.
+</p>
+@if (Model.Albums.Count > 0)
+{
+<div class="imageContainer">
+@foreach (var srce in Model.Albums)
+{
+    <div>
+    @foreach (var imag in srce.Photos)
+    {
+        if (null != imag.FileData)
+        {
+        <div class="imageBox">
+        @*<a href="@Url.Content("~/Content/img/" + src)" target="_blank"><img src="@Url.Content("~/Content/img/" + src)" alt="Image" class="imagePreview" /></a>
+        *@
+        
+        @{
+        var base64 = Convert.ToBase64String(imag.FileData);
+        var imgSrc = String.Format("data:image;base64,{0}", base64);
+        }
+
+        <img src="@imgSrc" />
+        </div>
+        }
+    }
+    </div>
+}
+</div>
+}
+else
+{
+<div class="imageCenter">
+    No images have been uploaded so far. @Html.ActionLink("Click here", "UploadImage") to upload an image.
+</div>
+}
+<div class="clear"></div>

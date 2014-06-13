@@ -9,6 +9,8 @@ using System.IO;
 using System.Drawing.Drawing2D;
 using System.Net;
 
+using  System.ComponentModel;
+
 namespace FancyImageUploader.Controllers
 {
     public class HomeController : Controller
@@ -27,6 +29,30 @@ namespace FancyImageUploader.Controllers
                 images.Images.Add(Path.GetFileName(file));
 
             return View(images);
+        }
+
+        // GET: /Home/AlbumsPreview
+
+        public ActionResult AlbumsPreview()
+        {
+            var albums = new UserDataModel();
+            //Read out files from the DB
+            //var album = new AlbumModel();
+            
+            foreach (var folder in db.FolderModel)
+            {
+                var photos = (from file_lol in db.FileModels
+                              where file_lol.FolderId == folder.FolderId
+                              select file_lol).ToList();
+
+                var album = new AlbumModel(photos);
+
+                albums.Albums.Add(album);
+            }
+
+            ViewBag.Albums = albums;
+                
+           return View(albums);
         }
 
         //
@@ -110,9 +136,19 @@ namespace FancyImageUploader.Controllers
                     var img = CreateImage(original, model.X, model.Y, model.Width, model.Height);
 
                     //Demo purposes only - save image in the file system
-                    var fn = Server.MapPath("~/Content/img/" + name + ".png");
-                    img.Save(fn, System.Drawing.Imaging.ImageFormat.Png);
-                    //db.FileModels.Add(
+                    //var fn = Server.MapPath("~/Content/img/" + name + ".png");
+                    //img.Save(fn, System.Drawing.Imaging.ImageFormat.Png);
+
+                    FileModel file_model = new FileModel();
+                    ImageConverter converter = new ImageConverter();
+                    //file_model.FileData = (byte[])converter.ConvertTo(original, typeof(byte[]));
+                    byte[] test_ar = new byte[5];
+                    test_ar[0] = 1;
+                    file_model.FileData = test_ar;
+                    file_model.FileName = name;
+                    file_model.FolderId = 1;
+                    db.FileModels.Add(file_model);
+                    db.SaveChanges();
                
 
                     //Redirect to index
