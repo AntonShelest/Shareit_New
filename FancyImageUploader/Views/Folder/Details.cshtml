@@ -1,0 +1,40 @@
+﻿@model FancyImageUploader.Models.FolderModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>FolderModel</legend>
+
+    <div class="display-label">FolderName</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.FolderName)
+    </div>
+
+    <div class="display-label">FolderUserId</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.FolderUserId)
+    </div>
+
+    <div class="display-label">SupFolderId</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.SupFolderId)
+    </div>
+
+    <div class="display-label">FolderRights</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.FolderRights)
+    </div>
+
+    <div class="display-label">FolderLink</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.FolderLink)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.FolderId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

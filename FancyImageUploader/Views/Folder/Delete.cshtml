@@ -1,0 +1,43 @@
+﻿@model FancyImageUploader.Models.FolderModel
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<fieldset>
+    <legend>FolderModel</legend>
+
+    <div class="display-label">FolderName</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.FolderName)
+    </div>
+
+    <div class="display-label">FolderUserId</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.FolderUserId)
+    </div>
+
+    <div class="display-label">SupFolderId</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.SupFolderId)
+    </div>
+
+    <div class="display-label">FolderRights</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.FolderRights)
+    </div>
+
+    <div class="display-label">FolderLink</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.FolderLink)
+    </div>
+</fieldset>
+@using (Html.BeginForm()) {
+    <p>
+        <input type="submit" value="Delete" /> |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+}

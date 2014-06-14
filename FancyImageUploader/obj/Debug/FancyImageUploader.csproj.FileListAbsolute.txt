@@ -1,0 +1,64 @@
+E:\Data\MVC3\FancyImageUploader\FancyImageUploader\bin\FancyImageUploader.dll
+E:\Data\MVC3\FancyImageUploader\FancyImageUploader\bin\FancyImageUploader.pdb
+E:\Data\MVC3\FancyImageUploader\FancyImageUploader\bin\EntityFramework.dll
+E:\Data\MVC3\FancyImageUploader\FancyImageUploader\bin\EntityFramework.xml
+E:\Data\MVC3\FancyImageUploader\FancyImageUploader\obj\Debug\ResolveAssemblyReference.cache
+E:\Data\MVC3\FancyImageUploader\FancyImageUploader\obj\Debug\FancyImageUploader.dll
+E:\Data\MVC3\FancyImageUploader\FancyImageUploader\obj\Debug\FancyImageUploader.pdb
+D:\Documents\Arbeitsdokumente\rsi Software\Paper\Fancy ASP.MVC Image Uploader\FancyImageUploader\FancyImageUploader\bin\FancyImageUploader.dll
+D:\Documents\Arbeitsdokumente\rsi Software\Paper\Fancy ASP.MVC Image Uploader\FancyImageUploader\FancyImageUploader\bin\FancyImageUploader.pdb
+D:\Documents\Arbeitsdokumente\rsi Software\Paper\Fancy ASP.MVC Image Uploader\FancyImageUploader\FancyImageUploader\bin\EntityFramework.dll
+D:\Documents\Arbeitsdokumente\rsi Software\Paper\Fancy ASP.MVC Image Uploader\FancyImageUploader\FancyImageUploader\bin\EntityFramework.xml
+D:\Documents\Arbeitsdokumente\rsi Software\Paper\Fancy ASP.MVC Image Uploader\FancyImageUploader\FancyImageUploader\obj\Debug\ResolveAssemblyReference.cache
+D:\Documents\Arbeitsdokumente\rsi Software\Paper\Fancy ASP.MVC Image Uploader\FancyImageUploader\FancyImageUploader\obj\Debug\FancyImageUploader.dll
+D:\Documents\Arbeitsdokumente\rsi Software\Paper\Fancy ASP.MVC Image Uploader\FancyImageUploader\FancyImageUploader\obj\Debug\FancyImageUploader.pdb
+F:\C\modal_demo\FancyImageUploader\bin\FancyImageUploader.dll
+F:\C\modal_demo\FancyImageUploader\bin\FancyImageUploader.pdb
+F:\C\modal_demo\FancyImageUploader\obj\Debug\FancyImageUploader.dll
+F:\C\modal_demo\FancyImageUploader\obj\Debug\FancyImageUploader.pdb
+F:\C\modal_demo\FancyImageUploader\obj\Debug\FancyImageUploader.csprojResolveAssemblyReference.cache
+F:\C\modal_demo\FancyImageUploader\bin\EntityFramework.dll
+F:\C\modal_demo\FancyImageUploader\bin\EntityFramework.xml
+C:\Users\Антоха\Documents\GitHub\ShareIt\FancyImageUploader\bin\FancyImageUploader.dll
+C:\Users\Антоха\Documents\GitHub\ShareIt\FancyImageUploader\bin\FancyImageUploader.pdb
+C:\Users\Антоха\Documents\GitHub\ShareIt\FancyImageUploader\bin\EntityFramework.dll
+C:\Users\Антоха\Documents\GitHub\ShareIt\FancyImageUploader\bin\EntityFramework.xml
+C:\Users\Антоха\Documents\GitHub\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.csprojResolveAssemblyReference.cache
+C:\Users\Антоха\Documents\GitHub\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.dll
+C:\Users\Антоха\Documents\GitHub\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.pdb
+D:\Нужное\Учеба\Курс 5 II\СТП\Проект\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.csprojResolveAssemblyReference.cache
+D:\Нужное\Учеба\Курс 5 II\СТП\Проект\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.dll
+D:\Нужное\Учеба\Курс 5 II\СТП\Проект\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.pdb
+D:\Нужное\Учеба\Курс 5 II\СТП\Проект\ShareIt\FancyImageUploader\bin\FancyImageUploader.dll
+D:\Нужное\Учеба\Курс 5 II\СТП\Проект\ShareIt\FancyImageUploader\bin\FancyImageUploader.pdb
+D:\Нужное\Учеба\Курс 5 II\СТП\Проект\ShareIt\FancyImageUploader\bin\EntityFramework.dll
+D:\Нужное\Учеба\Курс 5 II\СТП\Проект\ShareIt\FancyImageUploader\bin\EntityFramework.xml
+F:\C\ShareIt\FancyImageUploader\bin\FancyImageUploader.dll
+F:\C\ShareIt\FancyImageUploader\bin\FancyImageUploader.pdb
+F:\C\ShareIt\FancyImageUploader\bin\EntityFramework.dll
+F:\C\ShareIt\FancyImageUploader\bin\EntityFramework.xml
+F:\C\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.csprojResolveAssemblyReference.cache
+F:\C\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.dll
+F:\C\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.pdb
+F:\C\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.Migrations.InitialCreate.resources
+F:\C\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.csproj.GenerateResource.Cache
+F:\C\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.Migrations.test_migration.resources
+F:\C\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.Migrations.file_model_added.resources
+D:\Нужное\Учеба\Курс 5 II\СТП\Проект\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.Migrations.InitialCreate.resources
+D:\Нужное\Учеба\Курс 5 II\СТП\Проект\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.Migrations.test_migration.resources
+D:\Нужное\Учеба\Курс 5 II\СТП\Проект\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.Migrations.file_model_added.resources
+D:\Нужное\Учеба\Курс 5 II\СТП\Проект\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.csproj.GenerateResource.Cache
+D:\Нужное\Учеба\Курс 5 II\СТП\Проект\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.Migrations.folder_model_added.resources
+D:\Нужное\Учеба\Курс 5 II\СТП\Проект\Backup\ShareIt\FancyImageUploader\bin\FancyImageUploader.dll
+D:\Нужное\Учеба\Курс 5 II\СТП\Проект\Backup\ShareIt\FancyImageUploader\bin\FancyImageUploader.pdb
+D:\Нужное\Учеба\Курс 5 II\СТП\Проект\Backup\ShareIt\FancyImageUploader\bin\EntityFramework.dll
+D:\Нужное\Учеба\Курс 5 II\СТП\Проект\Backup\ShareIt\FancyImageUploader\bin\EntityFramework.xml
+D:\Нужное\Учеба\Курс 5 II\СТП\Проект\Backup\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.csprojResolveAssemblyReference.cache
+D:\Нужное\Учеба\Курс 5 II\СТП\Проект\Backup\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.Migrations.InitialCreate.resources
+D:\Нужное\Учеба\Курс 5 II\СТП\Проект\Backup\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.Migrations.test_migration.resources
+D:\Нужное\Учеба\Курс 5 II\СТП\Проект\Backup\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.Migrations.file_model_added.resources
+D:\Нужное\Учеба\Курс 5 II\СТП\Проект\Backup\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.Migrations.folder_model_added.resources
+D:\Нужное\Учеба\Курс 5 II\СТП\Проект\Backup\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.csproj.GenerateResource.Cache
+D:\Нужное\Учеба\Курс 5 II\СТП\Проект\Backup\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.dll
+D:\Нужное\Учеба\Курс 5 II\СТП\Проект\Backup\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.pdb
+D:\Нужное\Учеба\Курс 5 II\СТП\Проект\Backup\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.Migrations.file_model_added_sizeChar.resources

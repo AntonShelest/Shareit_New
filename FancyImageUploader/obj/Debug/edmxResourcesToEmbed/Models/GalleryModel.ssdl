@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PhotoGalleryModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="PhotoGalleryModelStoreContainer">
+    <EntitySet Name="Album" EntityType="PhotoGalleryModel.Store.Album" store:Type="Tables" store:Schema="dbo" store:Name="Album">
+      <DefiningQuery>SELECT 
+      [Album].[AlbumId] AS [AlbumId], 
+      [Album].[AlbumName] AS [AlbumName], 
+      [Album].[UserId] AS [UserId]
+      FROM [dbo].[Album] AS [Album]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Images" EntityType="PhotoGalleryModel.Store.Images" store:Type="Tables" store:Schema="dbo" store:Name="Images">
+      <DefiningQuery>SELECT 
+      [Images].[ImageId] AS [ImageId], 
+      [Images].[Extension] AS [Extension], 
+      [Images].[AlbumId] AS [AlbumId], 
+      [Images].[UserId] AS [UserId], 
+      [Images].[ImageBytes] AS [ImageBytes]
+      FROM [dbo].[Images] AS [Images]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="LoginDetails" EntityType="PhotoGalleryModel.Store.LoginDetails" store:Type="Tables" store:Schema="dbo" store:Name="LoginDetails">
+      <DefiningQuery>SELECT 
+      [LoginDetails].[RegisterID] AS [RegisterID], 
+      [LoginDetails].[FirstName] AS [FirstName], 
+      [LoginDetails].[LastName] AS [LastName], 
+      [LoginDetails].[UserName] AS [UserName], 
+      [LoginDetails].[Password] AS [Password]
+      FROM [dbo].[LoginDetails] AS [LoginDetails]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'F:\C\MODAL_DEMO\FANCYIMAGEUPLOADER\APP_DATA\PHOTOGALLERY.MDF.dbo.Album' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="Album">
+    <Key>
+      <PropertyRef Name="AlbumId" />
+    </Key>
+    <Property Name="AlbumId" Type="int" Nullable="false" />
+    <Property Name="AlbumName" Type="nvarchar" MaxLength="30" />
+    <Property Name="UserId" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'F:\C\MODAL_DEMO\FANCYIMAGEUPLOADER\APP_DATA\PHOTOGALLERY.MDF.dbo.Images' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="Images">
+    <Key>
+      <PropertyRef Name="ImageId" />
+    </Key>
+    <Property Name="ImageId" Type="int" Nullable="false" />
+    <Property Name="Extension" Type="nvarchar" MaxLength="20" />
+    <Property Name="AlbumId" Type="int" />
+    <Property Name="UserId" Type="int" />
+    <Property Name="ImageBytes" Type="varbinary(max)" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'F:\C\MODAL_DEMO\FANCYIMAGEUPLOADER\APP_DATA\PHOTOGALLERY.MDF.dbo.LoginDetails' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="LoginDetails">
+    <Key>
+      <PropertyRef Name="RegisterID" />
+    </Key>
+    <Property Name="RegisterID" Type="int" Nullable="false" />
+    <Property Name="FirstName" Type="nvarchar" MaxLength="40" />
+    <Property Name="LastName" Type="nvarchar" MaxLength="40" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="20" />
+    <Property Name="Password" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <Function Name="delete_Image" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="userId" Type="int" Mode="In" />
+    <Parameter Name="imageId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="delete_Images_Album" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="albumId" Type="int" Mode="In" />
+    <Parameter Name="userId" Type="int" Mode="In" />
+  </Function>
+</Schema>
