@@ -33,7 +33,11 @@ namespace FancyImageUploader.Controllers
 
         // GET: /Home/AlbumsPreview
 
+<<<<<<< HEAD
         public ActionResult AlbumsPreview(User user)
+=======
+        public ActionResult AlbumsPreview()
+>>>>>>> a8b30860358f645cefc04a9a9cfe49949f44b58a
         {
             var albums = new UserDataModel();
             //Read out files from the DB
@@ -42,7 +46,11 @@ namespace FancyImageUploader.Controllers
             foreach (var folder in db.FolderModel)
             {
                 var photos = (from file_lol in db.FileModels
+<<<<<<< HEAD
                               where (folder.FolderUserId == user.UserID && file_lol.FolderId == folder.FolderId)
+=======
+                              where file_lol.FolderId == folder.FolderId
+>>>>>>> a8b30860358f645cefc04a9a9cfe49949f44b58a
                               select file_lol).ToList();
 
                 var album = new AlbumModel(photos);
@@ -143,7 +151,11 @@ namespace FancyImageUploader.Controllers
                     ImageConverter converter = new ImageConverter();
                     file_model.FileData = (byte[])converter.ConvertTo(original, typeof(byte[]));
                     file_model.FileName = name;
+<<<<<<< HEAD
                     file_model.FolderId = 3;
+=======
+                    file_model.FolderId = 1;
+>>>>>>> a8b30860358f645cefc04a9a9cfe49949f44b58a
                     file_model.FileHeight = original.Height;
                     file_model.FileWidth = original.Width;
                     db.FileModels.Add(file_model);
@@ -229,6 +241,7 @@ namespace FancyImageUploader.Controllers
 
             return img;
         }
+<<<<<<< HEAD
 
         // GET: /Home/Index
 
@@ -263,5 +276,7 @@ namespace FancyImageUploader.Controllers
 
             return View(model);
         }
+=======
+>>>>>>> a8b30860358f645cefc04a9a9cfe49949f44b58a
     }
 }

@@ -62,3 +62,19 @@ D:\Нужное\Учеба\Курс 5 II\СТП\Проект\Backup\ShareIt\Fanc
 D:\Нужное\Учеба\Курс 5 II\СТП\Проект\Backup\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.dll
 D:\Нужное\Учеба\Курс 5 II\СТП\Проект\Backup\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.pdb
 D:\Нужное\Учеба\Курс 5 II\СТП\Проект\Backup\ShareIt\FancyImageUploader\obj\Debug\FancyImageUploader.Migrations.file_model_added_sizeChar.resources
+<<<<<<< HEAD
+=======
+F:\C\Shareit_New\FancyImageUploader\bin\FancyImageUploader.dll
+F:\C\Shareit_New\FancyImageUploader\bin\FancyImageUploader.pdb
+F:\C\Shareit_New\FancyImageUploader\bin\EntityFramework.dll
+F:\C\Shareit_New\FancyImageUploader\bin\EntityFramework.xml
+F:\C\Shareit_New\FancyImageUploader\obj\Debug\FancyImageUploader.csprojResolveAssemblyReference.cache
+F:\C\Shareit_New\FancyImageUploader\obj\Debug\FancyImageUploader.Migrations.InitialCreate.resources
+F:\C\Shareit_New\FancyImageUploader\obj\Debug\FancyImageUploader.Migrations.test_migration.resources
+F:\C\Shareit_New\FancyImageUploader\obj\Debug\FancyImageUploader.Migrations.file_model_added.resources
+F:\C\Shareit_New\FancyImageUploader\obj\Debug\FancyImageUploader.Migrations.folder_model_added.resources
+F:\C\Shareit_New\FancyImageUploader\obj\Debug\FancyImageUploader.Migrations.file_model_added_sizeChar.resources
+F:\C\Shareit_New\FancyImageUploader\obj\Debug\FancyImageUploader.csproj.GenerateResource.Cache
+F:\C\Shareit_New\FancyImageUploader\obj\Debug\FancyImageUploader.dll
+F:\C\Shareit_New\FancyImageUploader\obj\Debug\FancyImageUploader.pdb
+>>>>>>> a8b30860358f645cefc04a9a9cfe49949f44b58a
