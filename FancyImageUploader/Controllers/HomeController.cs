@@ -33,7 +33,7 @@ namespace FancyImageUploader.Controllers
 
         // GET: /Home/AlbumsPreview
 
-        public ActionResult AlbumsPreview()
+        public ActionResult AlbumsPreview(User user)
         {
             var albums = new UserDataModel();
             //Read out files from the DB
@@ -42,7 +42,7 @@ namespace FancyImageUploader.Controllers
             foreach (var folder in db.FolderModel)
             {
                 var photos = (from file_lol in db.FileModels
-                              where file_lol.FolderId == folder.FolderId
+                              where (folder.FolderUserId == user.UserID && file_lol.FolderId == folder.FolderId)
                               select file_lol).ToList();
 
                 var album = new AlbumModel(photos);
@@ -141,12 +141,11 @@ namespace FancyImageUploader.Controllers
 
                     FileModel file_model = new FileModel();
                     ImageConverter converter = new ImageConverter();
-                    //file_model.FileData = (byte[])converter.ConvertTo(original, typeof(byte[]));
-                    byte[] test_ar = new byte[5];
-                    test_ar[0] = 1;
-                    file_model.FileData = test_ar;
+                    file_model.FileData = (byte[])converter.ConvertTo(original, typeof(byte[]));
                     file_model.FileName = name;
-                    file_model.FolderId = 1;
+                    file_model.FolderId = 3;
+                    file_model.FileHeight = original.Height;
+                    file_model.FileWidth = original.Width;
                     db.FileModels.Add(file_model);
                     db.SaveChanges();
                
@@ -229,6 +228,40 @@ namespace FancyImageUploader.Controllers
             }
 
             return img;
+        }
+
+        // GET: /Home/Index
+
+        public ActionResult Authorization()
+        {
+            return View();
+        }
+
+        // POST: /Home/Index
+
+        [HttpPost]
+        public ActionResult Authorization(LoginModel model)
+        {
+            return RedirectToAction("AuthorizationResult", model);
+        }
+
+        // GET: /Home/Index
+
+        public ActionResult AuthorizationResult(LoginModel model)
+        {
+            var user_from_database = (from user in db.Users
+                         where user.UserName == model.UserName
+                         select user).ToList();
+
+            foreach (var user in user_from_database)
+            {
+                if (user.Password == model.Password)
+                {
+                    return RedirectToAction("AlbumsPreview", user);
+                }
+            }
+
+            return View(model);
         }
     }
 }

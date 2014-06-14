@@ -18,6 +18,8 @@ namespace FancyImageUploader.Models
 
         public string FileName { get; set; }
         public byte[] FileData { get; set; }
+        public int FileHeight { get; set; }
+        public int FileWidth { get; set; }
         public byte[] FileSmallData { get; set; }
         public int FolderId { get; set; }
     }

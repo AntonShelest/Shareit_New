@@ -97,6 +97,10 @@
     <Compile Include="Migrations\201406121558181_folder_model_added.Designer.cs">
       <DependentUpon>201406121558181_folder_model_added.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201406141337235_file_model_added_sizeChar.cs" />
+    <Compile Include="Migrations\201406141337235_file_model_added_sizeChar.Designer.cs">
+      <DependentUpon>201406141337235_file_model_added_sizeChar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AlbumModel.cs" />
     <Compile Include="Models\UserDataModel.cs" />
@@ -203,6 +207,9 @@
     <EmbeddedResource Include="Migrations\201406121558181_folder_model_added.resx">
       <DependentUpon>201406121558181_folder_model_added.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201406141337235_file_model_added_sizeChar.resx">
+      <DependentUpon>201406141337235_file_model_added_sizeChar.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\File\Index.cshtml" />
@@ -236,6 +243,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home\AlbumsPreview.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\Authorization.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\AuthorizationResult.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -1,0 +1,23 @@
+﻿@model FancyImageUploader.Models.LoginModel
+
+@{
+    ViewBag.Title = "AuthorizationResult";
+}
+
+<h2>AuthorizationResult</h2>
+
+<fieldset>
+    <legend>LoginModel</legend>
+
+    <div class="display-label">UserName</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.UserName)
+    </div>
+
+    <div class="display-label">Login or password is incorrect. Or there are not such user</div>
+
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id=Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
